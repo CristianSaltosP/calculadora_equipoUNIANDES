@@ -1,0 +1,4 @@
+CI,Descripcion,Version,Responsable,Fecha,Ubicacion
+src/calculadora.py,Código fuente de calculadora,v1.0.0,,,src/calculadora.py
+tests/test_calculadora.py,Pruebas unitarias,v1.0.0,,,tests/test_calculadora.py
+docs/INSTRUCCIONES_PRACTICA.md,Guía de práctica,v1.0.0,,,docs/INSTRUCCIONES_PRACTICA.md
