@@ -6,6 +6,6 @@
 - **Justificación**: Ampliar capacidades y demostrar control de cambios.
 - **Impacto**: Código y pruebas; actualizar CI y checklist ISO (mantenibilidad).
 - **Riesgos**: Cálculos incorrectos si no se prueban casos pares/impares.
-- **Estado**: Aprobado / Rechazado (seleccionar)
-- **Aprobado por (CAB)**: ______________________
-- **Fecha**: ___/___/____
+- **Estado**: Aprobado
+- **Aprobado por (CAB)**: Javier Saltos Ponce
+- **Fecha**: 15/08/2025
