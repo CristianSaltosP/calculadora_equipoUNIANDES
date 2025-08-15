@@ -2,19 +2,28 @@
 Calculadora básica para práctica de GCS.
 Versión: v1.0.0
 """
+import math
 
-def suma(a, b):
-    return a + b
+def mediana(valores):
+    """Calcula la mediana de una lista de números."""
+    n = len(valores)
+    if n == 0:
+        raise ValueError("La lista está vacía")
+    valores_ordenados = sorted(valores)
+    mitad = n // 2
+    if n % 2 == 0:
+        return (valores_ordenados[mitad - 1] + valores_ordenados[mitad]) / 2
+    else:
+        return valores_ordenados[mitad]
 
-def resta(a, b):
-    return a - b
+def desviacion_estandar(valores):
+    """Calcula la desviación estándar de una lista de números."""
+    n = len(valores)
+    if n == 0:
+        raise ValueError("La lista está vacía")
+    media = sum(valores) / n
+    varianza = sum((x - media) ** 2 for x in valores) / n
+    return math.sqrt(varianza)
 
-def multiplicacion(a, b):
-    return a * b
-
-def division(a, b):
-    if b == 0:
-        raise ZeroDivisionError("No se puede dividir para cero")
-    return a / b
 
 # TODO (CR-1): implementar mediana(valores) y desviacion_estandar(valores)
