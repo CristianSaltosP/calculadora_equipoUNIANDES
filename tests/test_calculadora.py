@@ -1,5 +1,5 @@
 import pytest
-from src.calculadora import mediana, desviacion_estandar
+from src.calculadora import mediana, desviacion_estandar, potencia
 
 def test_mediana_lista_impar():
     assert mediana([1, 3, 5]) == 3
@@ -18,3 +18,7 @@ def test_lista_vacia_mediana():
 def test_lista_vacia_desviacion():
     with pytest.raises(ValueError):
         desviacion_estandar([])
+
+def test_potencia():
+    assert potencia(2, 3) == 8
+

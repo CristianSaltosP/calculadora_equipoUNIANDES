@@ -25,5 +25,8 @@ def desviacion_estandar(valores):
     varianza = sum((x - media) ** 2 for x in valores) / n
     return math.sqrt(varianza)
 
+def potencia(base, exponente):
+    return base ** exponente
+
 
 # TODO (CR-1): implementar mediana(valores) y desviacion_estandar(valores)
