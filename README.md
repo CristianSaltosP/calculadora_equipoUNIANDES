@@ -27,3 +27,7 @@ README.md
 7. Crear **tag** `v1.1.0` y **Release**.
 
 Más detalle en `docs/INSTRUCCIONES_PRACTICA.md`.
+
+
+## Práctica Semana 6
+Proyecto actualizado para trabajar auditoría de configuración, integración de cambios y gestión de versiones.
